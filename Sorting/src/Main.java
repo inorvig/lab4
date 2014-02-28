@@ -20,13 +20,12 @@ public class Main {
 		}
 		System.out.println();
 		
-		System.out.println("Sorted Array:");
+		int[] sorted = InsertionSort.insertionSort(unsortedArray);
 		//TODO: sort the array and print out its contents
-		int[] sortedArray = BubbleSort.bubbleSort(unsortedArray);
-		for (int i: sortedArray) {
-				System.out.print(i + " ");
+
+		for (int i: sorted) {
+			System.out.print(i + " ");
 		}
-		
 		
 	}
 
